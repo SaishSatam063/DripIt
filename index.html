@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drip It - Music</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Drip It</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h2>Feel the Beat, Live the Rhythm</h2>
+        <p>Discover new music and artists every day</p>
+        <button class="explore-btn">Explore Now</button>
+    </section>
+
+    <section id="music" class="music-player">
+        <h2>Now Playing</h2>
+        <div class="player">
+            <img src="cover.jpg" alt="Album Cover" class="album-cover">
+            <audio id="audio" controls>
+                <source src="song.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Drip It. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
